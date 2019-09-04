@@ -20,7 +20,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/util.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
-<body>
 
 @section('content')
 

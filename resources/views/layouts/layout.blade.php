@@ -49,7 +49,7 @@
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
   <ul class="nav navbar-nav navbar-right">
     <li><a href="#about" class="page-scroll">@lang('Services')</a></li>
-        <li><a href="#services" class="page-scroll">@lang('Ammonia')</a></li>
+        <li><a href="#service" class="page-scroll">@lang('Ammonia')</a></li>
         <li><a href="#portfolio" class="page-scroll">@lang('About')</a></li>
 
     <li class="nav-item dropdown">
