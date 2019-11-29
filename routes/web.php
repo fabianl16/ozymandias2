@@ -19,7 +19,8 @@ Route::get('/', function () {
  	
 Route::get('monitoring', 'TankController@show')->name('showMonitoring');
 Route::post('monitoring/insert', 'TankController@store');
-
+Route::post('/calculate', 'TankController@calculate')->name('calculating');
+Route::get('/', 'TankController@index');
 
 //Login
 Route::get('login', 'Auth\LoginController@showLoginForm')->name('login');
