@@ -53,10 +53,10 @@
                         <a href="#grafica" class="page-scroll"> <i class="menu-icon fa fa-area-chart"></i>Graficas</a>
                     </li>
                     <li>
-                        <a href="/"> <i class="menu-icon fa fa-sort-amount-asc"></i>Estadisticas</a>
+                        <a href="#calculadora"> <i class="menu-icon fa fa-sort-amount-asc"></i>Estadisticas</a>
                     </li>
                     <li>
-                        <a href="/"> <i class="menu-icon fa fa-archive"></i>Acerca De</a>
+                        <a href="#about"> <i class="menu-icon fa fa-archive"></i>Acerca De</a>
                     </li>
                     
                 </ul>

@@ -70,15 +70,15 @@
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="box-title">Traffic </h4>
+                                <h4 class="box-title">Informacion </h4>
                             </div>
                             <div class="row">
 
                                 <div class="col-lg-8">
                                     <div class="card-body">
-                                         <h1>Home Construction<br>
-                                                & Remodeling</h1>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+                                         <h1>Cultivo de Camaron</h1>
+                                         <br>
+                                                <p>El cultivo de camarón, se ha convertido en una alternativa para los pescadores tradicionales, quienes han apostado por la capacitación, tecnificación, centros de acopio, laboratorios y otras herramientas que han permitido que los niveles de producción aumenten de manera exponencial.</p>
                                     </div>
                                 </div>
                             </div> <!-- /.row -->
@@ -88,7 +88,7 @@
                 </div>
                 <!--  /Traffic -->
 
-                <div class="row">
+                <div class="row" id="calculadora">
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-body">
@@ -164,20 +164,12 @@
 
                     <div class="col-lg-6">
                         <div class="card">
-                            <div class="card-header"><strong>Company</strong><small> Form</small></div>
+                            <div class="card-header"><strong>Estadisticas</strong><small>    NH3</small></div>
                             <div class="card-body card-block">
-                                <div class="form-group"><label for="company" class=" form-control-label">Company</label><input type="text" id="company" placeholder="Enter your company name" class="form-control"></div>
-                                <div class="form-group"><label for="vat" class=" form-control-label">VAT</label><input type="text" id="vat" placeholder="DE1234567890" class="form-control"></div>
-                                <div class="form-group"><label for="street" class=" form-control-label">Street</label><input type="text" id="street" placeholder="Enter street name" class="form-control"></div>
-                                <div class="row form-group">
-                                    <div class="col-8">
-                                        <div class="form-group"><label for="city" class=" form-control-label">City</label><input type="text" id="city" placeholder="Enter your city" class="form-control"></div>
-                                    </div>
-                                    <div class="col-8">
-                                        <div class="form-group"><label for="postal-code" class=" form-control-label">Postal Code</label><input type="text" id="postal-code" placeholder="Postal Code" class="form-control"></div>
-                                    </div>
+                                <div class="form-group"><label for="company" class=" form-control-label">Niveles apropiados para el crecimiento del camaron</label>
                                 </div>
-                                <div class="form-group"><label for="country" class=" form-control-label">Country</label><input type="text" id="country" placeholder="Country name" class="form-control"></div>
+                                <img src="images/cuadro.png">
+                                
                             </div>
                         </div>
                     </div>
@@ -188,12 +180,12 @@
     
                 </div>
 
-<!--  Traffic  -->
+                <!--  Traffic  -->
                 <div class="row" id="grafica">
                     <div class="col-lg-12">
                         <div class="card">
                             <div class="card-body">
-                                <h4 class="box-title">Traffic </h4>
+                                <h4 class="box-title">Grafica Temperatura</h4>
                             </div>
                             <div class="row">
 
@@ -201,6 +193,90 @@
                                     <div class="card-body">
 
                                         {!! $charttemp->container() !!}
+                                        
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+
+                                        {!! $chartsal->container() !!}
+                                        
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+
+                                        {!! $chartph->container() !!}
+                                        
+
+                                    </div>
+                                </div>
+                            </div> <!-- /.row -->
+                            <div class="card-body"></div>
+                        </div>
+                    </div><!-- /# column -->
+                </div>
+                <!--  /Traffic -->
+                <!--  Traffic  -->
+                <div class="row" id="about">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="box-title">Equipo Ozymandias</h4>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+
+                                      <span class="photo media-left"><img alt="avatar" src="images/avatar/chuy.png"></span>
+                                      <br>
+                                      <h4 class="box-title">Jesus Alberto Gonzales Castro</h4>
+
+                                        
+                                        
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+
+                                       <span class="photo media-left"><img alt="avatar" src="images/avatar/fabian.png"></span>
+                                      <br>
+                                      <h4 class="box-title">Fabian Loaeza Morales</h4>
+                                        
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+
+                                        <span class="photo media-left"><img alt="avatar" src="images/avatar/aries.png"></span>
+                                      <br>
+                                      <h4 class="box-title">Luis Aries Meza Castillo</h4>
+                                        
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+
+                                        <span class="photo media-left"><img alt="avatar" src="images/avatar/plata.png"></span>
+                                      <br>
+                                      <h4 class="box-title">Plata Corona Josue Saul</h4>
+                                        
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-8">
+                                    <div class="card-body">
+
+                                        <span class="photo media-left"><img alt="avatar" src="images/avatar/isaac.png"></span>
+                                      <br>
+                                      <h4 class="box-title">Isaaca Lucero Hernandez</h4>
                                         
 
                                     </div>
@@ -234,8 +310,8 @@
 
 
  {!! $charttemp->script() !!}
-
-
+{!! $chartsal->script() !!}
+{!! $chartph->script() !!}
 @include('layouts.footer')            
 
 
